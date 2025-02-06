@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!DOCTYPE html>
+<html lang="en" class = "theme-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+<form asp-controller="Home" method="post" asp-action="SearchCars">
+    <img src="images/alfa.jpg" alt="Full screen image" class="fullscreen-image">
+    <div class="card card-container">
+        <div class="card-content">
+            <div class="content">
+                <h3 class="title is-4">
+                    <i class="fas fa-car" style="font-size: 1em; margin-right: 10px;"></i>
+                    Căutare Mașini
+                </h3>
+
+              
+                <div class="field">
+                    <label class="label">Marcă</label>
+                    <div class="control">
+                        <div class="select is-fullwidth is-rounded">
+                            <select id="brandDropdown" name="brand">
+                                <option value="" disabled selected>Selectează Marca</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="field">
+                    <label class="label">Model</label>
+                    <div class="control">
+                        <div class="select is-fullwidth is-rounded">
+                            <select id="modelDropdown" name="model" disabled>
+                                <option value="" disabled selected>Selectează Model</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkboxes">
+                    <label class="checkbox">
+                        <input type="checkbox" name="stores" value="Autovit"/>
+                        Autovit
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="stores" value="AutoScout24" />
+                        AutoScout24
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="stores" value="Olx" />
+                        Olx
+                    </label>
+                </div>
+
+                
+                <div class="field">
+                    <div class="control ">
+                        <button id="searchButton" class="button is-primary is-rounded"  disabled>
+                            Căutare
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script src="~/js/site.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - sCARper</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+@if (ViewContext.RouteData.Values["controller"]?.ToString() == "Result" &&
+     ViewContext.RouteData.Values["action"]?.ToString() == "ShowResults")
+{
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #242222;">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="@Url.Action("SearchCars", "Home")">
+                    <span style="color: #00D1B2; font-size: 32px; font-weight: bold; margin-left: 25px;">
+                        sCARper
+                    </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+}
+
+<main role="main" class="pb-3">
+    @RenderBody()
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bulma@1.0.2/js/bulma.min.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

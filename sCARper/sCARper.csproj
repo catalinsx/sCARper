@@ -1,0 +1,128 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\bulma.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\bulma.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\bulma.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\bulma.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-dark-mode.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-dark-mode.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-dark-mode.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-helpers-prefixed.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-helpers-prefixed.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-helpers-prefixed.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-helpers.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-helpers.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-no-helpers.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-prefixed.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-prefixed.min.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\css\versions\bulma-prefixed.min.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\LICENSE" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\package.json" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\README.md" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\base\animations.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\base\generic.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\base\minireset.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\base\skeleton.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\base\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\breadcrumb.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\card.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\dropdown.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\menu.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\message.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\modal.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\navbar.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\pagination.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\panel.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\tabs.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\components\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\block.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\box.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\button.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\content.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\delete.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\icon.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\image.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\loader.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\notification.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\progress.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\table.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\tag.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\title.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\elements\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\checkbox-radio.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\file.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\input-textarea.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\select.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\shared.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\tools.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\form\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\grid\columns.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\grid\grid.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\grid\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\aspect-ratio.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\border.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\color.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\flexbox.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\float.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\gap.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\other.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\overflow.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\position.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\spacing.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\typography.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\visibility.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\helpers\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\container.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\footer.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\hero.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\level.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\media.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\section.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\layout\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\themes\dark.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\themes\light.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\themes\setup.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\themes\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\controls.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\css-variables.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\derived-variables.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\extends.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\functions.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\initial-variables.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\mixins.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\utilities\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\sass\_index.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\versions\bulma-no-dark-mode.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\versions\bulma-no-helpers-prefixed.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\versions\bulma-no-helpers.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bulma\versions\bulma-prefixed.scss" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="wwwroot\car-list.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.72" />
+      <PackageReference Include="HtmlAgilityPack.CssSelectors" Version="1.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Selenium.WebDriver" Version="4.27.0" />
+      <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="133.0.6943.1600-beta" />
+    </ItemGroup>
+
+</Project>
