@@ -1,12 +1,12 @@
 <h1 align="center" id="title">CARper - Car Ads Scraper &amp; Aggregator</h1>
 
-p id="description"><b>sCARper</b> is an ASP.NET Core web application that <b>scrapes car listings from OLX Autovit and Autoscout </b> and displays them in an interactive filterable interface. The project is designed to provide an easy way to search and compare used cars from multiple sources.</p>
+<p id="description"><b>sCARper</b> is an ASP.NET Core web application that <b>scrapes car listings from OLX Autovit and Autoscout </b> and displays them in an interactive filterable interface. The project is designed to provide an easy way to search and compare used cars from multiple sources.</p>
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://images.down.monster/XUDA2/cEkUFarE93.png/raw" alt="project-screenshot" width="400" height="400/">
+<img src="https://images.down.monster/XUDA2/cEkUFarE93.png/raw" alt="project-screenshot" width="1000" height="484/">
 
-<img src="https://images.down.monster/XUDA2/faXaxEGu31.png/raw" alt="project-screenshot" width="400" height="400/">
+<img src="https://images.down.monster/XUDA2/faXaxEGu31.png/raw" alt="project-screenshot" width="1000" height="484/">
 
   
   
