@@ -4,9 +4,9 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://images.down.monster/XUDA2/cEkUFarE93.png/raw" alt="project-screenshot" width="1000" height="484/">
+<img src="https://images.down.monster/XUDA2/cEkUFarE93.png/raw" alt="project-screenshot" width="800" height="387/">
 
-<img src="https://images.down.monster/XUDA2/faXaxEGu31.png/raw" alt="project-screenshot" width="1000" height="484/">
+<img src="https://images.down.monster/XUDA2/faXaxEGu31.png/raw" alt="project-screenshot" width="800" height="387/">
 
   
   
